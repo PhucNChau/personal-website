@@ -13,3 +13,70 @@ body, html {
 a {
   text-decoration: none;
 }
+/* Navbar */
+.navigation-container {
+  background-color: var(--background-dark);
+}
+.navigation-bar {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+}
+.navigation {
+  flex-direction: row;
+}
+.navigation-title {
+  margin-left: 2rem;
+}
+.navigation-title a {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  opacity: 1;
+  transition: transform .3s;
+  color: var(--text-color-light);
+}
+.navigation-title a:hover {
+  transform: translateY(-1px) scale(1.1,1.1);
+}
+.navigation-items {
+  display: inherit;
+  align-items: center;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.navigation-items a {
+  padding: 0rem 1rem;
+  opacity: .8;
+  transition: transform .2s;
+  color: var(--text-color-light);
+}
+.navigation-items a.active {
+  opacity: 1;
+}
+.navigation-items a:hover {
+  opacity: 1;
+  transform: translateY(-1px) scale(1.1,1.1);
+}
+.social-profile {
+  margin-left: auto;
+  margin-right: 2rem;
+  color: var(--text-color-light);
+  display: inherit;
+  align-items: center;
+}
+.social-profile a {
+  font-size: 1.1rem;
+  opacity: .8;
+  transition: transform .1s;
+  color: var(--text-color-light);
+}
+.social-profile a:hover {
+  opacity: 1;
+  transform: translateY(-1px) scale(1.1,1.1);
+}
+.social-profile i:first-child{
+  padding-right: 0.7rem;
+}
+

@@ -1,0 +1,34 @@
+<div class="container-fluid p-0 navigation-container">
+  <div class="container d-flex navigation-bar">
+    <!-- logo part -->
+    <div class="navigation-title">
+      <a [routerLink]="['./']"
+      [ngClass]="{ active: isActive('/') }"
+      [ariaCurrent]="isActive('/') ? 'page' : null">
+        Phuc Chau <i class="bi bi-dash"></i> Dev Nerd
+      </a>
+    </div>
+
+    <div class="navigation d-flex">
+      <!-- navigation part -->
+      <div class="navigation-items">
+        <a [routerLink]="['./']"
+        [ngClass]="{ active: isActive('/') }"
+        [ariaCurrent]="isActive('/') ? 'page' : null">Home</a>
+        <a [routerLink]="['./projects']"
+        [ngClass]="{ active: isActive('/projects') }"
+        [ariaCurrent]="isActive('/projects') ? 'page' : null">Projects</a>
+        <a [routerLink]="['./blog']"
+        [ngClass]="{ active: isActive('/blog') }"
+        [ariaCurrent]="isActive('/blog') ? 'page' : null">Blog</a>
+      </div>
+
+      <!-- social part -->
+      <!-- github, linkedin -->
+      <div class="social-profile">
+        <a href="https://www.linkedin.com/in/phucnchau/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/PhucNChau"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
