@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --background-light: #fff;
+  --background-dark: #000;
+  --background-light-2: rgba(63,77,83,0.1);
+  --background-light-3: #fafafa;
+  --text-color-light: #fff
+}
+body, html {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
