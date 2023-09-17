@@ -80,3 +80,14 @@ a {
   padding-right: 0.7rem;
 }
 
+/* Footer */
+.footer-container {
+  border-top: 1px solid var(--background-dark);
+  background-color: var(--background-light-3);
+}
+.footer {
+  padding: 1rem 2rem;
+  /* margin-left: 2rem;
+  margin-right: 2rem; */
+}
+
