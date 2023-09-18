@@ -1,44 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
-
-:root {
-  --background-light: #fff;
-  --background-dark: #000;
-  --background-light-2: rgba(63,77,83,0.1);
-  --background-light-3: #fafafa;
-  --text-color-light: #fff
-}
 body, html {
   height: 100%;
 }
+
 a {
   text-decoration: none;
 }
-/* Navbar */
+
 .navigation-container {
-  background-color: var(--background-dark);
+  background-color: #000;
 }
+
 .navigation-bar {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem 0rem;
 }
+
 .navigation {
+  display: flex;
   flex-direction: row;
 }
+
 .navigation-title {
   margin-left: 2rem;
 }
+
 .navigation-title a {
   display: block;
   font-size: 1.5rem;
   font-weight: 500;
   opacity: 1;
-  transition: transform .3s;
-  color: var(--text-color-light);
+  transition: transform 0.3s;
+  color: #fff;
 }
+
 .navigation-title a:hover {
-  transform: translateY(-1px) scale(1.1,1.1);
+  transform: translateY(-1px) scale(1.1, 1.1);
 }
+
 .navigation-items {
   display: inherit;
   align-items: center;
@@ -46,79 +46,76 @@ a {
   font-size: 1.1rem;
   font-weight: 500;
 }
+
 .navigation-items a {
   padding: 0rem 1rem;
-  opacity: .8;
-  transition: transform .2s;
-  color: var(--text-color-light);
+  opacity: 0.8;
+  transition: transform 0.2s;
+  color: #fff;
 }
+
 .navigation-items a.active {
   opacity: 1;
 }
+
 .navigation-items a:hover {
   opacity: 1;
-  transform: translateY(-1px) scale(1.1,1.1);
+  transform: translateY(-1px) scale(1.1, 1.1);
 }
+
 .social-profile {
   margin-left: auto;
   margin-right: 2rem;
-  color: var(--text-color-light);
   display: inherit;
   align-items: center;
 }
+
 .social-profile a {
   font-size: 1.1rem;
-  opacity: .8;
-  transition: transform .1s;
-  color: var(--text-color-light);
+  opacity: 0.8;
+  transition: transform 0.1s;
+  color: #fff;
 }
+
 .social-profile a:hover {
   opacity: 1;
-  transform: translateY(-1px) scale(1.1,1.1);
+  transform: translateY(-1px) scale(1.1, 1.1);
 }
-.social-profile i:first-child{
+
+.social-profile i:first-child {
   padding-right: 0.7rem;
 }
 
-/* Footer */
 .footer-container {
-  border-top: 1px solid var(--background-dark);
-  background-color: var(--background-light-3);
-}
-.footer {
-  padding: 1rem 2rem;
-  /* margin-left: 2rem;
-  margin-right: 2rem; */
+  border-top: 1px solid #000;
+  background-color: #fafafa;
 }
 
-/* Home page */
-.home-page {
-  background-color: var(--background-light);
+.footer {
+  padding: 1rem 2rem;
 }
-.home-page div>img {
+
+.home-page {
+  background-color: #fff;
+}
+
+.home-page div > img {
   display: block;
-  width: 40%;
   margin-left: auto;
   margin-right: auto;
+  width: 40%;
 }
+
 .content {
   padding: 0rem 2rem;
   column-count: 2;
 }
 
-/* Projects page */
-
-
-
-
-/* Blog page */
-
-div>img {
+div > img {
   display: block;
-  width: 30%;
   margin-left: auto;
   margin-right: auto;
+  width: 30%;
 }
 
-
-
+/*# sourceMappingURL=styles.css.map */

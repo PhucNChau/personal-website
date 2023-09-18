@@ -1,0 +1,10 @@
+@use '../../global-styles' as gs;
+
+// Footer
+.footer-container {
+  border-top: 1px solid gs.$background-dark;
+  background-color: gs.$background-light-3;
+}
+.footer {
+  padding: 1rem 2rem;
+}

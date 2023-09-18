@@ -1,0 +1,7 @@
+@use '../../global-styles' as gs;
+
+// Blog
+div>img {
+  @include gs.center-block;
+  width: 30%;
+}

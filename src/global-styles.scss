@@ -1,0 +1,24 @@
+$background-light: #fff;
+$background-light-3: #fafafa;
+$background-dark: #000;
+$text-color-light: #fff;
+
+@mixin no-text-decoration-link {
+  text-decoration: none;
+}
+@mixin display-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body, html {
+  height: 100%;
+}
+a {
+  @include no-text-decoration-link;
+}

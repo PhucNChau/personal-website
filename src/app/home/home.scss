@@ -1,0 +1,14 @@
+@use '../../global-styles' as gs;
+
+// Home
+.home-page {
+  background-color: gs.$background-light;
+}
+.home-page div>img {
+  @include gs.center-block;
+  width: 40%;
+}
+.content {
+  padding: 0rem 2rem;
+  column-count: 2;
+}
